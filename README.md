@@ -6,6 +6,8 @@ Version-aware Agent Skills for building and maintaining Go terminal applications
 
 This is a community-maintained project, independent of Charm. It combines concise guidance, pinned official references, small runnable examples, and behavioral checks. Existing legacy applications stay on their dependency family unless you request migration.
 
+Current content release: [v0.1.0](https://github.com/newbpydev/skills-charmbracelet/releases/tag/v0.1.0).
+
 ## Install
 
 Run this from the Go project where you want to use the skills, then select skills and agents in the installer:

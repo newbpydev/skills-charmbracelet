@@ -1,7 +1,7 @@
 ---
 title: Publish the Charmbracelet skill collection
 type: feat
-status: in_progress
+status: published
 date: 2026-09-07
 ---
 
@@ -72,7 +72,11 @@ Known upstream limitations remain visible: Wish's pinned SSH dependency has a re
 - [x] One genuine public install follows existing telemetry preferences.
 - [x] Collection and twelve skill pages show matching content on skills.sh.
 - [x] Search visibility is separately recorded as pending.
-- [ ] Release `v0.1.0` and its evidence links are published.
+- [x] Release `v0.1.0` and its evidence links are published.
+
+## Observed outcome
+
+[v0.1.0](https://github.com/newbpydev/skills-charmbracelet/releases/tag/v0.1.0) is public. Installation and resource preservation passed, the exact release commit passed all three hosted platforms, and twelve skills.sh pages display the collection's instructions. See [validation evidence](../validation.md). Keyword search inclusion and the configured display groups remain external follow-up items; they are not claimed complete.
 
 ## Sources checked on 2026-09-07
 

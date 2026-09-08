@@ -23,4 +23,6 @@ On 2026-09-07 the user approved public publication as `newbpydev/skills-charmbra
 - [x] Pass required local publication checks.
 - [x] Push the public repository and observe hosted checks.
 - [x] Verify actual public-source installation and twelve live skills.sh pages; record keyword search as pending.
-- [ ] Publish the release and record evidence.
+- [x] Publish the release and record evidence.
+
+[v0.1.0](https://github.com/newbpydev/skills-charmbracelet/releases/tag/v0.1.0) was published from the exact commit that passed the Linux/macOS/Windows matrix. The hosted checks exposed and verified a fix for canonical temporary paths on macOS and Windows. Public installation and twelve skills.sh content pages are verified. Keyword search and the configured skills.sh groups remain unobserved external outcomes; details and source/run links are in docs/validation.md.
