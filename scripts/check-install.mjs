@@ -15,7 +15,7 @@ const [source = root, ...extra] = process.argv.slice(2);
 if (extra.length || source.startsWith('-')) throw new Error('Usage: node scripts/check-install.mjs [source]');
 console.log(`Checking Skills CLI source: ${source}`);
 const env = { DISABLE_TELEMETRY: '1', NO_COLOR: '1', FORCE_COLOR: '0', CI: '1' };
-const scratch = await mkdtemp(join(tmpdir(), 'charm-install-'));
+const scratch = await realpath(await mkdtemp(join(tmpdir(), 'charm-install-')));
 let checks = 0;
 async function install(args, cwd) {
   const result = await run(process.execPath, [cli, 'add', source, ...args], { cwd, env });
