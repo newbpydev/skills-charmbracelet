@@ -1,0 +1,26 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Core TUI",
+      "description": "Choose libraries and build version-aware terminal interfaces in Go.",
+      "skills": ["charmbracelet-ecosystem", "charmbracelet-bubbletea", "charmbracelet-bubbles", "charmbracelet-lipgloss"]
+    },
+    {
+      "title": "Forms and content",
+      "description": "Collect input and render Markdown with the right integration boundaries.",
+      "skills": ["charmbracelet-huh", "charmbracelet-glamour"]
+    },
+    {
+      "title": "Runtime",
+      "description": "Handle SSH sessions, logging, animation, and terminal primitives.",
+      "skills": ["charmbracelet-wish", "charmbracelet-log", "charmbracelet-harmonica", "charmbracelet-terminal"]
+    },
+    {
+      "title": "Maintenance",
+      "description": "Migrate deliberately and test model, runtime, and terminal behavior.",
+      "skills": ["charmbracelet-migration", "charmbracelet-testing"]
+    }
+  ]
+}

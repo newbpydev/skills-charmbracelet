@@ -1,0 +1,26 @@
+{
+  "name": "skills-charmbracelet",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Version-aware Agent Skills for the Charm Go ecosystem",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.20.0"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-skills.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check:examples": "node scripts/check-examples.mjs",
+    "check:install": "node scripts/check-install.mjs",
+    "check:upstream": "node scripts/check-upstream.mjs",
+    "check": "npm run validate && npm test && npm run check:examples && npm run check:install",
+    "check:pty": "python3 scripts/check-pty.py",
+    "check:native": "node scripts/check-native.mjs",
+    "check:routing": "node scripts/check-routing.mjs"
+  },
+  "devDependencies": {
+    "mdast-util-from-markdown": "2.0.2",
+    "skills": "1.5.24",
+    "yaml": "2.9.0"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "date": "2026-09-07",
+  "generationRuns": [
+    {
+      "case": "new-v2",
+      "variant": "baseline",
+      "cli": "codex-cli 0.153.4",
+      "elapsedMs": 63038,
+      "exitCode": 0,
+      "compiled": true,
+      "promptSha256": "86ceb18c621fd5cce3a59a7bc4777baac3ecd4071510be623e490cf9e9ae5756",
+      "codeSha256": "c9a2427e516547c0b57c846e8e7520faee6ffd93a840d4f9165225545be16528",
+      "eventItemTypes": [
+        "agent_message",
+        "error"
+      ],
+      "suppliedFiles": []
+    },
+    {
+      "case": "new-v2",
+      "variant": "skill",
+      "cli": "codex-cli 0.153.4",
+      "elapsedMs": 47015,
+      "exitCode": 0,
+      "compiled": true,
+      "promptSha256": "a269d121ab5f061bfe613f748953c875c76839d5c0a3e510c521160cc4963cc1",
+      "codeSha256": "6966948179db55bbe2d6e08047f04b61218c395908fa961fd012d74dc961b91e",
+      "eventItemTypes": [
+        "agent_message",
+        "error"
+      ],
+      "suppliedFiles": [
+        "skills/charmbracelet-bubbletea/SKILL.md",
+        "skills/charmbracelet-bubbletea/references/examples.md",
+        "skills/charmbracelet-bubbletea/references/legacy.md",
+        "skills/charmbracelet-bubbletea/references/patterns.md",
+        "skills/charmbracelet-bubbletea/references/sources.md",
+        "skills/charmbracelet-bubbletea/references/versions.md",
+        "skills/charmbracelet-bubbles/SKILL.md",
+        "skills/charmbracelet-bubbles/references/examples.md",
+        "skills/charmbracelet-bubbles/references/legacy.md",
+        "skills/charmbracelet-bubbles/references/patterns.md",
+        "skills/charmbracelet-bubbles/references/sources.md",
+        "skills/charmbracelet-bubbles/references/versions.md",
+        "skills/charmbracelet-lipgloss/SKILL.md",
+        "skills/charmbracelet-lipgloss/references/examples.md",
+        "skills/charmbracelet-lipgloss/references/legacy.md",
+        "skills/charmbracelet-lipgloss/references/patterns.md",
+        "skills/charmbracelet-lipgloss/references/sources.md",
+        "skills/charmbracelet-lipgloss/references/versions.md"
+      ]
+    },
+    {
+      "case": "legacy-fix",
+      "variant": "baseline",
+      "cli": "codex-cli 0.153.4",
+      "elapsedMs": 24054,
+      "exitCode": 0,
+      "compiled": true,
+      "promptSha256": "e8816ec54ee2bda103bcd92fae63bf489e243ce819f3b2122b164599a24ebf5c",
+      "codeSha256": "4d9a693ffb09508f9b4791a0b0e34e99c550060d6a45282ffca0bf7b25af2374",
+      "eventItemTypes": [
+        "agent_message",
+        "error"
+      ],
+      "suppliedFiles": []
+    },
+    {
+      "case": "legacy-fix",
+      "variant": "skill",
+      "cli": "codex-cli 0.153.4",
+      "elapsedMs": 24274,
+      "exitCode": 0,
+      "compiled": true,
+      "promptSha256": "bde1ce40dd11437aef4c2ea4f67beb4f961d2fb8cc814ea60338edcefb35a0c3",
+      "codeSha256": "f99c030e3cae3bfae1d599ff1b2043834beb1877fc20d6e189edfcc49f47bd82",
+      "eventItemTypes": [
+        "agent_message",
+        "error"
+      ],
+      "suppliedFiles": [
+        "skills/charmbracelet-bubbletea/SKILL.md",
+        "skills/charmbracelet-bubbletea/references/examples.md",
+        "skills/charmbracelet-bubbletea/references/legacy.md",
+        "skills/charmbracelet-bubbletea/references/patterns.md",
+        "skills/charmbracelet-bubbletea/references/sources.md",
+        "skills/charmbracelet-bubbletea/references/versions.md",
+        "skills/charmbracelet-bubbles/SKILL.md",
+        "skills/charmbracelet-bubbles/references/examples.md",
+        "skills/charmbracelet-bubbles/references/legacy.md",
+        "skills/charmbracelet-bubbles/references/patterns.md",
+        "skills/charmbracelet-bubbles/references/sources.md",
+        "skills/charmbracelet-bubbles/references/versions.md"
+      ]
+    },
+    {
+      "case": "migrate-v2",
+      "variant": "baseline",
+      "cli": "codex-cli 0.153.4",
+      "elapsedMs": 30006,
+      "exitCode": 0,
+      "compiled": true,
+      "promptSha256": "1baa2e7ea545c2a843ba79e0bc81764c31edc4ae7ba56f90d1ca8cd42be3d3c2",
+      "codeSha256": "d6c224b58e3f0a05c7e41b1ae87dd9f526900be2b37fb8738156b0833af41617",
+      "eventItemTypes": [
+        "agent_message",
+        "error"
+      ],
+      "suppliedFiles": []
+    },
+    {
+      "case": "migrate-v2",
+      "variant": "skill",
+      "cli": "codex-cli 0.153.4",
+      "elapsedMs": 28060,
+      "exitCode": 0,
+      "compiled": true,
+      "promptSha256": "d6bbe1096e673e9e557d06c4d9c849ab9a1a52aef33453d93a2abd23723d6e36",
+      "codeSha256": "d6834505f70d7b8bb5c161f7ba6b74d91cab4d5c9d5916c460bab3785eabd5f0",
+      "eventItemTypes": [
+        "agent_message",
+        "error"
+      ],
+      "suppliedFiles": [
+        "skills/charmbracelet-migration/SKILL.md",
+        "skills/charmbracelet-migration/references/examples.md",
+        "skills/charmbracelet-migration/references/patterns.md",
+        "skills/charmbracelet-migration/references/sources.md",
+        "skills/charmbracelet-migration/references/versions.md",
+        "skills/charmbracelet-bubbletea/SKILL.md",
+        "skills/charmbracelet-bubbletea/references/examples.md",
+        "skills/charmbracelet-bubbletea/references/legacy.md",
+        "skills/charmbracelet-bubbletea/references/patterns.md",
+        "skills/charmbracelet-bubbletea/references/sources.md",
+        "skills/charmbracelet-bubbletea/references/versions.md",
+        "skills/charmbracelet-bubbles/SKILL.md",
+        "skills/charmbracelet-bubbles/references/examples.md",
+        "skills/charmbracelet-bubbles/references/legacy.md",
+        "skills/charmbracelet-bubbles/references/patterns.md",
+        "skills/charmbracelet-bubbles/references/sources.md",
+        "skills/charmbracelet-bubbles/references/versions.md",
+        "skills/charmbracelet-lipgloss/SKILL.md",
+        "skills/charmbracelet-lipgloss/references/examples.md",
+        "skills/charmbracelet-lipgloss/references/legacy.md",
+        "skills/charmbracelet-lipgloss/references/patterns.md",
+        "skills/charmbracelet-lipgloss/references/sources.md",
+        "skills/charmbracelet-lipgloss/references/versions.md"
+      ]
+    }
+  ],
+  "routing": [
+    {
+      "id": "ecosystem",
+      "prompt": "Choose the Charm Go libraries for an SSH dashboard with a form and Markdown help.",
+      "expected": "charmbracelet-ecosystem",
+      "actual": "charmbracelet-ecosystem",
+      "passed": true
+    },
+    {
+      "id": "bubbletea",
+      "prompt": "My Bubble Tea Update blocks while fetching HTTP results. Make the TUI responsive and ignore old responses.",
+      "expected": "charmbracelet-bubbletea",
+      "actual": "charmbracelet-bubbletea",
+      "passed": true
+    },
+    {
+      "id": "bubbles",
+      "prompt": "Wire Tab focus between two Bubbles textinputs and keep their cursor commands running.",
+      "expected": "charmbracelet-bubbles",
+      "actual": "charmbracelet-bubbles",
+      "passed": true
+    },
+    {
+      "id": "lipgloss",
+      "prompt": "Fix Lip Gloss borders and padding overflowing a terminal with Japanese text and emoji.",
+      "expected": "charmbracelet-lipgloss",
+      "actual": "charmbracelet-lipgloss",
+      "passed": true
+    },
+    {
+      "id": "huh",
+      "prompt": "Build a Huh form with required inputs, select options and accessible prompts.",
+      "expected": "charmbracelet-huh",
+      "actual": "charmbracelet-huh",
+      "passed": true
+    },
+    {
+      "id": "glamour",
+      "prompt": "Reflow Glamour-rendered Markdown when the terminal viewport changes size.",
+      "expected": "charmbracelet-glamour",
+      "actual": "charmbracelet-glamour",
+      "passed": true
+    },
+    {
+      "id": "wish",
+      "prompt": "Serve our TUI over Wish with public-key authentication and separate SSH sessions.",
+      "expected": "charmbracelet-wish",
+      "actual": "charmbracelet-wish",
+      "passed": true
+    },
+    {
+      "id": "log",
+      "prompt": "Configure Charm Log as a JSON slog handler writing to a file while a TUI is active.",
+      "expected": "charmbracelet-log",
+      "actual": "charmbracelet-log",
+      "passed": true
+    },
+    {
+      "id": "harmonica",
+      "prompt": "Make a Harmonica spring stop ticking when settled and honor reduced motion.",
+      "expected": "charmbracelet-harmonica",
+      "actual": "charmbracelet-harmonica",
+      "passed": true
+    },
+    {
+      "id": "terminal",
+      "prompt": "Use Ultraviolet to draw into a cell buffer and restore the terminal after exit.",
+      "expected": "charmbracelet-terminal",
+      "actual": "charmbracelet-terminal",
+      "passed": true
+    },
+    {
+      "id": "migration",
+      "prompt": "Upgrade our Bubble Tea v1, Bubbles and Lip Gloss application together to released v2.",
+      "expected": "charmbracelet-migration",
+      "actual": "charmbracelet-migration",
+      "passed": true
+    },
+    {
+      "id": "testing",
+      "prompt": "Add deterministic teatest coverage for our Bubble Tea app's keys and final model.",
+      "expected": "charmbracelet-testing",
+      "actual": "charmbracelet-testing",
+      "passed": true
+    },
+    {
+      "id": "preserve-legacy",
+      "prompt": "Fix Bubble Tea v1 startup and quit handling. Do not upgrade the dependencies.",
+      "expected": "charmbracelet-bubbletea",
+      "actual": "charmbracelet-bubbletea",
+      "passed": true
+    },
+    {
+      "id": "mixed-types",
+      "prompt": "Our Go upgrade mixes two Charm tea.Model types from GitHub and charm.land imports. Resolve the version mismatch.",
+      "expected": "charmbracelet-migration",
+      "actual": "charmbracelet-migration",
+      "passed": true
+    },
+    {
+      "id": "drink",
+      "prompt": "Give me a recipe for brown sugar bubble tea.",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "id": "http",
+      "prompt": "Write a Go net/http JSON health endpoint.",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "id": "sql",
+      "prompt": "Optimize this PostgreSQL query in my Go service.",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "id": "css",
+      "prompt": "Fix a React CSS table with a sticky header.",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "id": "music",
+      "prompt": "Explain how to play blues on a harmonica.",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "id": "jewelry",
+      "prompt": "Suggest materials for making a charm bracelet.",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    }
+  ],
+  "modelVerification": {
+    "cli": "codex-cli 0.153.4",
+    "model": "gpt-6-astra",
+    "provider": "openai",
+    "reasoningEffort": "none",
+    "selection": "CLI default with --ignore-user-config; no model override",
+    "note": "Verified from a separate CLI startup using the same options; generation JSON logs do not themselves report model identity."
+  },
+  "additionalProbes": [
+    {
+      "case": "new-v2",
+      "variant": "baseline",
+      "basicPassed": true,
+      "tinyBoundsPassed": true
+    },
+    {
+      "case": "new-v2",
+      "variant": "skill",
+      "basicPassed": true,
+      "tinyBoundsPassed": true
+    },
+    {
+      "case": "legacy-fix",
+      "variant": "baseline",
+      "basicPassed": false,
+      "tinyBoundsPassed": false
+    },
+    {
+      "case": "legacy-fix",
+      "variant": "skill",
+      "basicPassed": true,
+      "tinyBoundsPassed": true
+    },
+    {
+      "case": "migrate-v2",
+      "variant": "baseline",
+      "basicPassed": true,
+      "tinyBoundsPassed": false
+    },
+    {
+      "case": "migrate-v2",
+      "variant": "skill",
+      "basicPassed": true,
+      "tinyBoundsPassed": true
+    }
+  ],
+  "probeTiming": "Written after generation; behavioral observations, not a pre-registered benchmark.",
+  "routingRun": {
+    "cli": "codex-cli 0.153.4",
+    "promptSha256": "b10ba003fadcd0ad515255e6d18bcb89ae00098351aa949cfea369da453b458e",
+    "passed": 20,
+    "total": 20,
+    "scope": "Final name/description catalog; metadata classification, not native activation"
+  }
+}

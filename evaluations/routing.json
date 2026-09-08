@@ -1,0 +1,22 @@
+[
+  {"id":"ecosystem", "prompt":"Choose the Charm Go libraries for an SSH dashboard with a form and Markdown help.", "expected":"charmbracelet-ecosystem"},
+  {"id":"bubbletea", "prompt":"My Bubble Tea Update blocks while fetching HTTP results. Make the TUI responsive and ignore old responses.", "expected":"charmbracelet-bubbletea"},
+  {"id":"bubbles", "prompt":"Wire Tab focus between two Bubbles textinputs and keep their cursor commands running.", "expected":"charmbracelet-bubbles"},
+  {"id":"lipgloss", "prompt":"Fix Lip Gloss borders and padding overflowing a terminal with Japanese text and emoji.", "expected":"charmbracelet-lipgloss"},
+  {"id":"huh", "prompt":"Build a Huh form with required inputs, select options and accessible prompts.", "expected":"charmbracelet-huh"},
+  {"id":"glamour", "prompt":"Reflow Glamour-rendered Markdown when the terminal viewport changes size.", "expected":"charmbracelet-glamour"},
+  {"id":"wish", "prompt":"Serve our TUI over Wish with public-key authentication and separate SSH sessions.", "expected":"charmbracelet-wish"},
+  {"id":"log", "prompt":"Configure Charm Log as a JSON slog handler writing to a file while a TUI is active.", "expected":"charmbracelet-log"},
+  {"id":"harmonica", "prompt":"Make a Harmonica spring stop ticking when settled and honor reduced motion.", "expected":"charmbracelet-harmonica"},
+  {"id":"terminal", "prompt":"Use Ultraviolet to draw into a cell buffer and restore the terminal after exit.", "expected":"charmbracelet-terminal"},
+  {"id":"migration", "prompt":"Upgrade our Bubble Tea v1, Bubbles and Lip Gloss application together to released v2.", "expected":"charmbracelet-migration"},
+  {"id":"testing", "prompt":"Add deterministic teatest coverage for our Bubble Tea app's keys and final model.", "expected":"charmbracelet-testing"},
+  {"id":"preserve-legacy", "prompt":"Fix Bubble Tea v1 startup and quit handling. Do not upgrade the dependencies.", "expected":"charmbracelet-bubbletea"},
+  {"id":"mixed-types", "prompt":"Our Go upgrade mixes two Charm tea.Model types from GitHub and charm.land imports. Resolve the version mismatch.", "expected":"charmbracelet-migration"},
+  {"id":"drink", "prompt":"Give me a recipe for brown sugar bubble tea.", "expected":null},
+  {"id":"http", "prompt":"Write a Go net/http JSON health endpoint.", "expected":null},
+  {"id":"sql", "prompt":"Optimize this PostgreSQL query in my Go service.", "expected":null},
+  {"id":"css", "prompt":"Fix a React CSS table with a sticky header.", "expected":null},
+  {"id":"music", "prompt":"Explain how to play blues on a harmonica.", "expected":null},
+  {"id":"jewelry", "prompt":"Suggest materials for making a charm bracelet.", "expected":null}
+]

@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-09-07",
+  "modules": [
+    {
+      "id": "bubbletea",
+      "repository": "charmbracelet/bubbletea",
+      "module": "charm.land/bubbletea/v2",
+      "version": "v2.0.9",
+      "commit": "73b6d91ac1c3854dd4af046ab5f9e51d3b3b4290",
+      "go": "1.25.0",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "LICENSE",
+        "README.md",
+        "UPGRADE_GUIDE_V2.md",
+        "examples/colorprofile/main.go",
+        "examples/composable-views/README.md",
+        "examples/composable-views/main.go",
+        "examples/debounce/README.md",
+        "examples/debounce/main.go",
+        "examples/exec/README.md",
+        "examples/exec/main.go",
+        "examples/focus-blur/main.go",
+        "examples/glamour/README.md",
+        "examples/glamour/main.go",
+        "examples/keyboard-enhancements/main.go",
+        "examples/mouse/main.go",
+        "examples/pipe/README.md",
+        "examples/pipe/main.go",
+        "examples/send-msg/README.md",
+        "examples/send-msg/main.go",
+        "examples/table-resize/main.go",
+        "examples/textinputs/README.md",
+        "examples/textinputs/main.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-bubbletea/references/sources.md"
+      ]
+    },
+    {
+      "id": "bubbles",
+      "repository": "charmbracelet/bubbles",
+      "module": "charm.land/bubbles/v2",
+      "version": "v2.2.1",
+      "commit": "490948109eb4731927ba2f4cd464d8175a9630d7",
+      "go": "1.25.0",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "LICENSE",
+        "README.md",
+        "UPGRADE_GUIDE_V2.md",
+        "textinput/textinput.go",
+        "spinner/spinner.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-bubbles/references/sources.md"
+      ]
+    },
+    {
+      "id": "lipgloss",
+      "repository": "charmbracelet/lipgloss",
+      "module": "charm.land/lipgloss/v2",
+      "version": "v2.0.6",
+      "commit": "733ce53541bb688fd735524b665e0d96e35433bb",
+      "go": "1.25.0",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "LICENSE",
+        "README.md",
+        "UPGRADE_GUIDE_V2.md",
+        "examples/canvas/main.go",
+        "examples/compat/bubbletea/main.go",
+        "examples/compat/standalone/main.go",
+        "examples/layout/main.go",
+        "examples/list/duckduckgoose/main.go",
+        "examples/list/glow/main.go",
+        "examples/list/grocery/main.go",
+        "examples/list/roman/main.go",
+        "examples/list/simple/main.go",
+        "examples/list/sublist/main.go",
+        "examples/table/ansi/main.go",
+        "examples/table/chess/main.go",
+        "examples/table/languages/main.go",
+        "examples/table/mindy/main.go",
+        "examples/table/pokemon/main.go",
+        "examples/tree/background/main.go",
+        "examples/tree/files/main.go",
+        "examples/tree/makeup/main.go",
+        "examples/tree/rounded/main.go",
+        "examples/tree/selection/main.go",
+        "examples/tree/simple/main.go",
+        "examples/tree/styles/main.go",
+        "examples/tree/toggle/main.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-lipgloss/references/sources.md"
+      ]
+    },
+    {
+      "id": "huh",
+      "repository": "charmbracelet/huh",
+      "module": "charm.land/huh/v2",
+      "version": "v2.0.3",
+      "commit": "3c0116c6fd1f578ef50a25d868d2db19bd985222",
+      "go": "1.25.8",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "LICENSE",
+        "README.md",
+        "UPGRADE_GUIDE_V2.md",
+        "examples/accessibility/main.go",
+        "examples/bubbletea/main.go",
+        "examples/conditional/main.go",
+        "examples/dynamic/dynamic-all/main.go",
+        "examples/dynamic/dynamic-bubbletea/main.go",
+        "examples/dynamic/dynamic-count/main.go",
+        "examples/dynamic/dynamic-country/main.go",
+        "examples/dynamic/dynamic-increment/main.go",
+        "examples/dynamic/dynamic-markdown/main.go",
+        "examples/dynamic/dynamic-name/main.go",
+        "examples/dynamic/dynamic-suggestions/main.go",
+        "examples/filepicker/main.go",
+        "examples/ssh-form/main.go",
+        "form.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-huh/references/sources.md"
+      ]
+    },
+    {
+      "id": "glamour",
+      "repository": "charmbracelet/glamour",
+      "module": "charm.land/glamour/v2",
+      "version": "v2.0.1",
+      "commit": "95c93db04489cebf252ec856584445c7e85ee276",
+      "go": "1.25.8",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "LICENSE",
+        "README.md",
+        "UPGRADE_GUIDE_V2.md",
+        "examples/custom_renderer/main.go",
+        "examples/helloworld/main.go",
+        "examples/stdin-stdout/main.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-glamour/references/sources.md"
+      ]
+    },
+    {
+      "id": "wish",
+      "repository": "charmbracelet/wish",
+      "module": "charm.land/wish/v2",
+      "version": "v2.0.3",
+      "commit": "76f2bdd2ccf0f7e87f7b30bffa2558cad3df93f1",
+      "go": "1.25.12",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "LICENSE",
+        "README.md",
+        "UPGRADE_GUIDE_V2.md",
+        "examples/bubbletea/main.go",
+        "examples/graceful-shutdown/main.go",
+        "examples/identity/main.go",
+        "examples/multi-auth/main.go",
+        "examples/multichat/main.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-wish/references/sources.md"
+      ]
+    },
+    {
+      "id": "log",
+      "repository": "charmbracelet/log",
+      "module": "charm.land/log/v2",
+      "version": "v2.0.1",
+      "commit": "394fd9b15aba02cf7dd118b345248855174a90a4",
+      "go": "1.25.8",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "LICENSE",
+        "README.md",
+        "UPGRADE_GUIDE_V2.md",
+        "examples/format/format.go",
+        "examples/new/new.go",
+        "examples/slog/main.go",
+        "examples/styles/styles.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-log/references/sources.md"
+      ]
+    },
+    {
+      "id": "harmonica",
+      "repository": "charmbracelet/harmonica",
+      "module": "github.com/charmbracelet/harmonica",
+      "version": "v0.2.0",
+      "commit": "5ae57d3f7a21232590cc173f92e2f27eeab6ec43",
+      "go": "1.16",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "LICENSE",
+        "README.md",
+        "examples/particle/main.go",
+        "examples/spring/opengl/main.go",
+        "examples/spring/tui/main.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-harmonica/references/sources.md"
+      ]
+    },
+    {
+      "id": "teatest-v1",
+      "repository": "charmbracelet/x",
+      "module": "github.com/charmbracelet/x/exp/teatest",
+      "version": "v0.0.0-20260906004030-3986e9119cf9",
+      "commit": "3986e9119cf98efcf5809969e11ad369fddb5522",
+      "go": "1.24.0",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "experimental": true,
+      "sources": [
+        "exp/teatest/go.mod",
+        "exp/teatest/teatest.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-testing/references/sources.md"
+      ]
+    },
+    {
+      "id": "teatest-v2",
+      "repository": "charmbracelet/x",
+      "module": "github.com/charmbracelet/x/exp/teatest/v2",
+      "version": "v2.0.0-20260906004030-3986e9119cf9",
+      "commit": "3986e9119cf98efcf5809969e11ad369fddb5522",
+      "go": "1.24.2",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "experimental": true,
+      "sources": [
+        "exp/teatest/v2/go.mod",
+        "exp/teatest/v2/teatest.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-testing/references/sources.md"
+      ]
+    },
+    {
+      "id": "ansi",
+      "repository": "charmbracelet/x",
+      "module": "github.com/charmbracelet/x/ansi",
+      "version": "v0.11.8",
+      "commit": "00c6608f106b9c6cd8a1a77156f7901f41265e64",
+      "go": "1.24.2",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "experimental": false,
+      "sources": [
+        "ansi/go.mod"
+      ],
+      "consumers": [
+        "skills/charmbracelet-terminal/references/sources.md"
+      ]
+    },
+    {
+      "id": "term",
+      "repository": "charmbracelet/x",
+      "module": "github.com/charmbracelet/x/term",
+      "version": "v0.2.2",
+      "commit": "4542a189d0fbeb156bb1df8730d253f2ef443c00",
+      "go": "1.24.0",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "experimental": false,
+      "sources": [
+        "term/go.mod"
+      ],
+      "consumers": [
+        "skills/charmbracelet-terminal/references/sources.md"
+      ]
+    },
+    {
+      "id": "colorprofile",
+      "repository": "charmbracelet/colorprofile",
+      "module": "github.com/charmbracelet/colorprofile",
+      "version": "v0.4.3",
+      "commit": "d085584efb48f2ad470e96cd0f3dcb8cc68a034b",
+      "go": "1.25.0",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "experimental": false,
+      "sources": [
+        "go.mod"
+      ],
+      "consumers": [
+        "skills/charmbracelet-terminal/references/sources.md"
+      ]
+    },
+    {
+      "id": "ultraviolet",
+      "repository": "charmbracelet/ultraviolet",
+      "module": "github.com/charmbracelet/ultraviolet",
+      "version": "v0.0.0-20260906173415-0277a179edd9",
+      "commit": "0277a179edd9d8f94d2a2c950edde2e398012525",
+      "go": "1.25.0",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "experimental": true,
+      "sources": [
+        "go.mod",
+        "README.md",
+        "buffer.go",
+        "uv.go",
+        "terminal.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-terminal/references/sources.md"
+      ]
+    },
+    {
+      "id": "charmtone",
+      "repository": "charmbracelet/x",
+      "module": "github.com/charmbracelet/x/exp/charmtone",
+      "version": "v0.0.0-20260906004030-3986e9119cf9",
+      "commit": "3986e9119cf98efcf5809969e11ad369fddb5522",
+      "go": "1.24.0",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "experimental": true,
+      "sources": [
+        "exp/charmtone/go.mod"
+      ],
+      "consumers": [
+        "skills/charmbracelet-lipgloss/references/sources.md"
+      ]
+    },
+    {
+      "id": "ssh",
+      "repository": "charmbracelet/ssh",
+      "module": "charm.land/ssh",
+      "version": "v0.4.3",
+      "commit": "7273fef53b8bd95059231bc60c0fc1efc0c2cde4",
+      "go": "1.25.0",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "experimental": false,
+      "sources": [
+        "go.mod",
+        "session.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-wish/references/sources.md"
+      ]
+    },
+    {
+      "id": "bubbletea-legacy",
+      "repository": "charmbracelet/bubbletea",
+      "module": "github.com/charmbracelet/bubbletea",
+      "version": "v1.3.10",
+      "commit": "9edf69c677c7353eca5fae6d3ea3986af39717b7",
+      "go": "1.24.0",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "README.md"
+      ],
+      "consumers": [
+        "skills/charmbracelet-bubbletea/references/legacy.md",
+        "skills/charmbracelet-migration/references/sources.md"
+      ]
+    },
+    {
+      "id": "bubbles-legacy",
+      "repository": "charmbracelet/bubbles",
+      "module": "github.com/charmbracelet/bubbles",
+      "version": "v0.21.1",
+      "commit": "9329772de61d80756b4f1ea3acea4000a499bf71",
+      "go": "1.24.2",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "README.md"
+      ],
+      "consumers": [
+        "skills/charmbracelet-bubbles/references/legacy.md",
+        "skills/charmbracelet-migration/references/sources.md"
+      ]
+    },
+    {
+      "id": "lipgloss-legacy",
+      "repository": "charmbracelet/lipgloss",
+      "module": "github.com/charmbracelet/lipgloss",
+      "version": "v1.1.0",
+      "commit": "f0e45475a64ee60d712b81145172d3739db36a93",
+      "go": "1.18",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "README.md"
+      ],
+      "consumers": [
+        "skills/charmbracelet-lipgloss/references/legacy.md",
+        "skills/charmbracelet-migration/references/sources.md"
+      ]
+    },
+    {
+      "id": "bubbles-v1",
+      "repository": "charmbracelet/bubbles",
+      "module": "github.com/charmbracelet/bubbles",
+      "version": "v1.0.0",
+      "commit": "4824effc3f91c9517c776d8200ef99a1207136e0",
+      "go": "1.24.2",
+      "license": "MIT",
+      "licensePath": "LICENSE",
+      "sources": [
+        "go.mod",
+        "README.md",
+        "textinput/textinput.go"
+      ],
+      "consumers": [
+        "skills/charmbracelet-ecosystem/references/versions.md",
+        "skills/charmbracelet-bubbletea/references/versions.md",
+        "skills/charmbracelet-bubbles/references/versions.md",
+        "skills/charmbracelet-lipgloss/references/versions.md",
+        "skills/charmbracelet-huh/references/versions.md",
+        "skills/charmbracelet-glamour/references/versions.md",
+        "skills/charmbracelet-wish/references/versions.md",
+        "skills/charmbracelet-log/references/versions.md",
+        "skills/charmbracelet-harmonica/references/versions.md",
+        "skills/charmbracelet-migration/references/versions.md",
+        "skills/charmbracelet-testing/references/versions.md",
+        "skills/charmbracelet-terminal/references/versions.md"
+      ]
+    }
+  ]
+}

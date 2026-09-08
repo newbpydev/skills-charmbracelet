@@ -1,0 +1,25 @@
+[
+  {
+    "id": "new-v2",
+    "skills": ["bubbletea", "bubbles", "lipgloss"],
+    "prompt": "Build a small Go Bubble Tea v2 TUI with an editable search input, a spinner during asynchronous simulated loading, and a result. Initialize and keep the components working; pressing Enter refreshes. Ignore results from superseded requests. Handle terminal resizes including tiny widths without negative dimensions. Typing q into the focused input must not quit; ctrl+c quits. Use a full-screen declarative view. Return a complete main.go and briefly explain important choices. Use only the standard library and the modules supplied below.",
+    "modules": {"charm.land/bubbletea/v2": "v2.0.9", "charm.land/bubbles/v2": "v2.2.1", "charm.land/lipgloss/v2": "v2.0.6"},
+    "criteria": ["Compiles against pinned v2 modules", "Initial focus and spinner commands run", "Component commands are retained", "Superseded results are ignored", "q is editable and ctrl+c exits", "Tiny resize cannot produce negative dimensions", "View uses tea.View and declarative AltScreen"]
+  },
+  {
+    "id": "legacy-fix",
+    "skills": ["bubbletea", "bubbles"],
+    "prompt": "Fix this existing Go TUI without upgrading its dependencies: the input is not initially focused, q quits even while typing, and narrow terminal resizes can assign a negative input width. Retain the existing legacy import paths, View signature, and program options. Preserve all returned component commands. Return the corrected complete main.go and a brief explanation. Use only the standard library and the supplied modules.",
+    "seed": "legacy/main.go",
+    "modules": {"github.com/charmbracelet/bubbletea": "v1.3.10", "github.com/charmbracelet/bubbles": "v0.21.1", "github.com/charmbracelet/lipgloss": "v1.1.0"},
+    "criteria": ["Compiles against legacy modules", "No v2 import or dependency upgrade", "Focus command is returned from Init", "q is editable and ctrl+c exits", "Tiny resize is clamped", "Update retains the child command"]
+  },
+  {
+    "id": "migrate-v2",
+    "skills": ["migration", "bubbletea", "bubbles", "lipgloss"],
+    "prompt": "Migrate the supplied legacy Go TUI to the pinned v2 ecosystem. Preserve its full-screen behavior and editable input, fix initial focus and narrow resize, and let users type q while ctrl+c quits. Adapt the model interface, events, component dimensions, and terminal options. Return the complete migrated main.go and a brief explanation. Use only the standard library and the supplied modules.",
+    "seed": "legacy/main.go",
+    "modules": {"charm.land/bubbletea/v2": "v2.0.9", "charm.land/bubbles/v2": "v2.2.1", "charm.land/lipgloss/v2": "v2.0.6"},
+    "criteria": ["Compiles against pinned v2 modules", "tea.View and declarative AltScreen", "KeyPressMsg and SetWidth replace legacy APIs", "Focus and update commands are retained", "q remains editable", "Tiny width is clamped"]
+  }
+]
