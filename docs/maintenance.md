@@ -34,6 +34,8 @@ The public source is [newbpydev/skills-charmbracelet](https://github.com/newbpyd
 4. Record the observations in [validation evidence](validation.md). Commit and push evidence changes, then require successful CI on that final commit, matching local/remote heads, and a clean tree before tagging.
 5. Create an immutable content tag and GitHub release with the exact commit, successful run URL, tested source versions, and relevant limitations. Do not move a published tag. Revert harmful content on `main`, validate, and publish a correction as a new version. Users can update named skills with `npx skills update charmbracelet-bubbletea`.
 
+After publication, a documentation-only follow-up may record the release URL and close the work log. Keep the tag on its verified commit; that follow-up does not require retagging or rerunning unchanged model evaluations.
+
 ## skills.sh visibility
 
 The [official FAQ](https://skills.sh/docs/faq) describes automatic listing from public GitHub installations through the CLI's anonymous telemetry. Use one genuine public-source installation to verify the user journey; respect telemetry opt-outs. Automated regression checks keep telemetry disabled. Do not generate repeated installs or synthetic telemetry to influence rankings.

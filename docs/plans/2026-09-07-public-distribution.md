@@ -55,6 +55,8 @@ Record the public repository, reviewed commit, hosted run, remote-install result
 
 Commit and push the evidence updates before the final release gate. Immediately before tagging, require clean local contents, local HEAD equal to remote `main`, and successful required jobs on that exact commit. Put that final commit and run URL in GitHub release notes, avoiding a self-referential commit hash in the source file. Earlier verification observations retain their own recorded revision and scope.
 
+A documentation-only follow-up after publication may record the release's actual URL and completion status. It does not move the verified tag or change the released skill contents.
+
 Keep collection versions distinct from library versions. Keep release tags immutable; correct published mistakes with a new commit and content release. For a harmful change, revert the change on `main`, validate, and publish the correction. Review upstream changes monthly and when a relevant release or issue is noticed; use the existing source checker as a report, not an automatic upgrade.
 
 Known upstream limitations remain visible: Wish's pinned SSH dependency has a reproduced early-resize race, Huh's accessible mode discards some errors, and installation checks for nine harnesses do not prove native model behavior for nine harnesses. These limit downstream claims but do not prevent publishing useful, accurately qualified guidance.
@@ -64,12 +66,12 @@ Known upstream limitations remain visible: Wish's pinned SSH dependency has a re
 - [x] Public README, licenses, and twelve catalog group entries agree; GitHub metadata is prepared.
 - [x] Reviewed publication tree contains no private scratch artifacts.
 - [x] Required local checks pass.
-- [ ] Public repository is anonymously readable and uses `main`.
-- [ ] Hosted Linux, macOS, and Windows jobs pass on the release candidate.
-- [ ] Public-source installs preserve all resources across nine targets and standalone selections.
-- [ ] One genuine public install follows existing telemetry preferences.
-- [ ] Collection and twelve skill pages show matching content on skills.sh.
-- [ ] Search visibility is observed or separately recorded as pending.
+- [x] Public repository is anonymously readable and uses `main`.
+- [x] Hosted Linux, macOS, and Windows jobs pass on the release candidate.
+- [x] Public-source installs preserve all resources across nine targets and standalone selections.
+- [x] One genuine public install follows existing telemetry preferences.
+- [x] Collection and twelve skill pages show matching content on skills.sh.
+- [x] Search visibility is separately recorded as pending.
 - [ ] Release `v0.1.0` and its evidence links are published.
 
 ## Sources checked on 2026-09-07

@@ -21,6 +21,6 @@ On 2026-09-07 the user approved public publication as `newbpydev/skills-charmbra
 - [x] Review the concrete publication plan and apply three findings.
 - [x] Prepare public installation/update instructions, grouped catalog, and remote-source verification.
 - [x] Pass required local publication checks.
-- [ ] Push the public repository and observe hosted checks.
-- [ ] Verify actual public-source installation and skills.sh visibility.
+- [x] Push the public repository and observe hosted checks.
+- [x] Verify actual public-source installation and twelve live skills.sh pages; record keyword search as pending.
 - [ ] Publish the release and record evidence.
